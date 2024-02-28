@@ -34,15 +34,13 @@ const TopBar = () => {
         <SignedIn>
           <SignOutButton>
             <div className='flex cursor-pointer gap-4 items-center '>
-              <Logout sx={{ color: "white", fontSize: "32px" }} />
+              {/* <Logout sx={{ color: "white", fontSize: "32px" }} /> */}
             </div>
           </SignOutButton>
         </SignedIn>
       </div>
 
     </div>
-
-    // csadsadsa
   )
 }
 
